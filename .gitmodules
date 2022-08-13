@@ -44,5 +44,5 @@
 	path = tools
 	url = https://github.com/badgeteam/mch2022-tools
 [submodule "esp-adf"]
+	path = esp-adf
 	url = https://github.com/espressif/esp-adf
-	active = true

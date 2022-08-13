@@ -29,6 +29,27 @@
 #include "soc/rtc.h"
 #include "soc/rtc_cntl_reg.h"
 
+// Audio stuff
+#include "esp_log.h"
+#include "esp_wifi.h"
+
+#include "audio_element.h"
+#include "audio_pipeline.h"
+#include "audio_event_iface.h"
+#include "audio_common.h"
+#include "http_stream.h"
+#include "i2s_stream.h"
+#include "mp3_decoder.h"
+
+#include "esp_peripherals.h"
+#include "periph_wifi.h"
+#include "board.h"
+
+#include "audio_idf_version.h"
+#include "esp_netif.h"
+
+#include "driver/i2s.h"
+
 // Updates the screen with the last drawing.
 void disp_flush();
 
